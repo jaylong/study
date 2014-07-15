@@ -1,0 +1,4 @@
+sudo ifconfig gif0 tunnel 166.111.152.226 59.66.4.50
+sudo ifconfig gif0 inet6 2001:da8:200:900e:0:5efe:166.111.152.226 prefixlen 64
+sudo route delete -inet6 default
+sudo route add -inet6 default 2001:da8:200:900e::1g’
